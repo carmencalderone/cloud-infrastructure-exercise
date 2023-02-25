@@ -17,13 +17,11 @@ resource "aws_network_interface" "my_networkinterface" {
 
   #deploy a virtual machine with 1 vCPU and 1,0 gb of RAM 
 resource "aws_instance" "wordpress_instance" {
-  ami= "ami-0b6321d6ee7c8ab67" # amazon linux AMI on MILAN region
-
+  ami= "ami-0b6321d6ee7c8ab67" # amazon linux AMI on MILAN region 
+  user_data = file("startup.sh")
   instance_type = "t2.micro"
-
   network_interface {
     network_interface_id = aws_network_interface.my_networkinterface.id
   }
-
 }
 
