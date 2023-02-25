@@ -8,7 +8,7 @@ This repository contains an example projects for the deploy of one AWS VM includ
 2. [Project Details](#AWS)
 
 ## About this Repo <a name="About"></a>
-This repo is made by Carmen Calderone and it is based on deploy of an infrastructure IaaS using Infrastructure as a Code Terraform tool.
+This repo is made by Carmen Calderone and it is based on deploy of an infrastructure IaaS using Infrastructure as a Code **Terraform**.
 
 The architecture is based on a single EC2 Virtual Machine deployed on eu-south-1 region (Milan). 
 
