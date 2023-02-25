@@ -16,7 +16,8 @@ The installation of Wordpress is done by startup script on bash linux. The engin
 
 ## AWS Details <a name="AWS"></a>
 
-|----------|-------------------------|
-| [Class B VPC based on Milan Region] |
-| [Operative System] Amazon Linux 2 |
-| [Availability Zone] eu-south-1a |
+|----------|-------------------------| 
+
+| [Class B VPC based on Milan Region] | \
+| [Operative System] Amazon Linux 2 | \
+| [Availability Zone] eu-south-1a | \
