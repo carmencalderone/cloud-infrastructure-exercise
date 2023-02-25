@@ -12,7 +12,9 @@ This repo is made by Carmen Calderone and it is based on deploy of an infrastruc
 
 The architecture is based on a single EC2 Virtual Machine deployed on eu-south-1 region (Milan). 
 
-The installation of Wordpress is done by startup script on bash linux. The engine used for WordPress is Apache 2.0
+The installation of Wordpress is done by Linux bash script launched on startup of VM. The engine used for WordPress is Apache 2.0
+The code for Wordpress installation was taken from official Ubuntu's documentation. 
+https://ubuntu.com/tutorials/install-and-configure-wordpress#7-configure-wordpress
 
 ## AWS Details <a name="AWS"></a>
 
