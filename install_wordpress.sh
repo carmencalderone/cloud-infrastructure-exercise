@@ -33,7 +33,7 @@ echo "<VirtualHost *:80>
         Options FollowSymLinks
         AllowOverride Limit Options FileInfo
         DirectoryIndex index.php
-        Require all granted000
+        Require all granted
     </Directory>
     <Directory /srv/www/wordpress/wp-content>
         Options FollowSymLinks
