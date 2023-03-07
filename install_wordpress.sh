@@ -67,4 +67,4 @@ sudo systemctl restart apache2
 sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php
 ##### Configure username and password  #####
 sudo -u www-data sed -i 's/admin/wordpress/' /srv/www/wordpress/wp-config.php
-sudo -u www-data sed -i 's/admin/<your-password>/' /srv/www/wordpress/wp-config.php
+sudo -u www-data sed -i 's/new_password/<your-password>/' /srv/www/wordpress/wp-config.php
