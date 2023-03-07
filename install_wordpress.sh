@@ -58,9 +58,9 @@ sudo systemctl start mysql
 sudo /usr/bin/mysql -e "CREATE DATABASE wordpress;"
 sudo /usr/bin/mysql -e "CREATE USER wordpress@localhost IDENTIFIED BY '<your-password>';"
 
-##### Install PHP #####
+##### Install other PHP packages #####
 
-sudo apt -y install php php-bz2 php-mysqli php-curl php-gd php-intl php-common php-mbstring php-xml
+sudo apt -y install php-bz2 php-mysqli php-gd php-common
 sudo systemctl restart apache2 
 
 ##### Copy the config file into WP config file  #####
