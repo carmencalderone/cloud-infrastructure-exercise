@@ -5,8 +5,7 @@
 ################################################
 sudo apt install apache2
 sudo systemctl start apache2
-sudo apt install apache2 \
-                 ghostscript \
+sudo apt install ghostscript \
                  libapache2-mod-php \
                  mysql-server \
                  php \
