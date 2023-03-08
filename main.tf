@@ -11,7 +11,7 @@ resource "aws_subnet" "my_subnet" {
 #Deploy a virtual machine with 1 vCPU and 1 GB of RAM Memory
 resource "aws_instance" "wordpress_instance" {
   ami= "ami-0b6321d6ee7c8ab67" # Amazon Linux 2 AMI on MILAN region 
-  user_data = file("install_wordpress.sh")
+  user_data = file("install_wordpress.sh") # startup bash script
   instance_type = "t2.micro"
   availability_zone = "eu-south-1a"
 }
